@@ -9,7 +9,7 @@ const gWhiteColor = Color.fromARGB(255, 7, 34, 13);
 const gDarkColor = Color.fromARGB(255, 0, 0, 0);
 
 //splash screen bg color
-const gSplashColor = Color.fromARGB(255, 0, 1, 51);
+const gSplashColor = Color.fromARGB(255, 0, 0, 0);
 
 //splash text colors
 const gText1 = Color.fromARGB(255, 255, 255, 255);

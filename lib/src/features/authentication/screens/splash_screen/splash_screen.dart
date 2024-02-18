@@ -44,13 +44,15 @@ class SplashScreen extends StatelessWidget {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Text(
-                      "Gaming",
-                      style: TextStyle(
-                          fontSize: 35,
-                          fontWeight: FontWeight.w500,
-                          color: gText1),
-                    ),
+                    // Text(
+                    //   "Gaming",
+                    //   style: TextStyle(
+                    //       fontSize: 35,
+                    //       fontWeight: FontWeight.w500,
+                    //       color: gText1),
+                    // ),
+                    //Image(image: AssetImage(gSplashTopLogo)),
+
                     SizedBox(
                       height: 20,
                     ),

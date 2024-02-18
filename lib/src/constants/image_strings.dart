@@ -1,5 +1,5 @@
 //splash screen
-const String gSplashTopLogo = "assets/logo/logo 1.png";
+const String gSplashTopLogo = "assets/logos/yunash-logo.gif";
 
 //onboarding screens
 const String gOnBoardingImage1 =
