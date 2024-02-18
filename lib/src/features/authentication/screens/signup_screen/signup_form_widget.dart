@@ -12,6 +12,11 @@ class SignupForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Controllers for text form fields
+    TextEditingController usernameController = TextEditingController();
+    TextEditingController emailController = TextEditingController();
+    TextEditingController passwordController = TextEditingController();
+    TextEditingController confirmPasswordController = TextEditingController();
     bool _isChecked = false;
     return Form(
       child: Container(
@@ -20,6 +25,7 @@ class SignupForm extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextFormField(
+              controller: usernameController,
               decoration: InputDecoration(
                 fillColor: Color.fromARGB(85, 255, 255, 255),
                 filled: true,
@@ -36,6 +42,7 @@ class SignupForm extends StatelessWidget {
               height: 15,
             ),
             TextFormField(
+              controller: emailController,
               decoration: InputDecoration(
                 fillColor: Color.fromARGB(85, 255, 255, 255),
                 filled: true,
@@ -77,6 +84,7 @@ class SignupForm extends StatelessWidget {
               height: 15,
             ),
             TextFormField(
+              controller: passwordController,
               decoration: InputDecoration(
                   fillColor: Color.fromARGB(85, 255, 255, 255),
                   filled: true,
@@ -97,6 +105,7 @@ class SignupForm extends StatelessWidget {
               height: 15,
             ),
             TextFormField(
+              controller: confirmPasswordController,
               decoration: InputDecoration(
                 fillColor: Color.fromARGB(85, 255, 255, 255),
                 filled: true,

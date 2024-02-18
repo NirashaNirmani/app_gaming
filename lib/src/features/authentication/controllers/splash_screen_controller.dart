@@ -1,3 +1,4 @@
+import 'package:appgaming/src/features/authentication/screens/edit_profile/edit_profile.dart';
 import 'package:appgaming/src/features/authentication/screens/login_screen/login_screen.dart';
 import 'package:appgaming/src/features/authentication/screens/on_boarding_screens/on_bording_screen.dart';
 //import 'package:flutter/material.dart';
@@ -17,7 +18,7 @@ class SplashScreenController extends GetxController {
     animate.value = true;
     await Future.delayed(
         const Duration(milliseconds: 5000)); // Adjusted delay time
-    Get.to(OnBordingScreen());
+    Get.to(UpdateProfile());
     // Navigator.pushReplacement(
     //   context,
     //   MaterialPageRoute(builder: (context) => const Welcome()),

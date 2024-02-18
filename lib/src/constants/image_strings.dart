@@ -25,3 +25,6 @@ const String gSelectA1 = "assets/images/select_avatar/A1.jpg";
 const String gSelectA2 = "assets/images/select_avatar/A2.jpg";
 const String gSelectA3 = "assets/images/select_avatar/A3.jpg";
 const String gSelectA4 = "assets/images/select_avatar/A4.jpg";
+
+//Update Profile
+const String gUpdateProfile = "assets/images/select_avatar/A4.jpg";
